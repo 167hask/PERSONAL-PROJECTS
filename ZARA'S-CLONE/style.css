@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+.navbar {
+    background: scroll;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .left-side-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    gap: 20px;
+    padding: 10px 50px;
+    line-height: 1;
+}
+.logo h1 {
+    padding: 0px;
+    margin: 0px;
+    letter-spacing:-45px;
+    font-size: 140px;
+    font-weight:lighter;
+    font-family: 'Bodoni Moda',serif;
+}
+.search-bar {
+    margin: 0px;
+    padding-right: 50px;
+}
+.navbar .search-bar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .search-bar ul li {
+    list-style: none;
+    padding: 12px;
+    font-size: smaller;
+    font-family:Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.navbar .search-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+ .content .images {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 12px;
+    padding-left: 50px ;
+    padding-right: 50px ;
+    padding-top: 20px ;
+    padding-bottom: 0px ;
+}
+.arrow {
+    transform:rotate(180deg);
+}
+.horizontal-line{
+    width: 20px;
+    height: 1.5px;
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+}
+.diagonal-line1 {
+    padding: 0;
+    margin: 0;
+    width: 8px;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    font-weight: 100;
+    transform: rotate(-20deg);
+}
+.diagonal-line2 {
+    padding: 0;
+    margin: 0;
+    width: 8px;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    font-weight: 100;
+    transform: rotate(20deg);
+}
+.img-caption {
+    padding:10px 338px ;
+}
+.img-caption p {
+    text-align: right;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content video {
+    width: 842px;
+    height: 1130px;
+    margin: 0px 339px !important;
+}
+.footer1 p{
+    text-align: center;
+    font-size: smaller;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.footer1 ul {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 300px;
+}
+.footer1 ul li{
+    list-style: none;
+    padding: 12px;
+    font-size: smaller;
+    font-family:Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.footer1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+footer div p {
+    text-transform: uppercase;
+    padding-left: 32px;
+    font-size: smaller;
+    font-family:Helvetica, sans-serif;
+    font-weight: lighter;
+}
+footer .right {
+    position: sticky;
+}
