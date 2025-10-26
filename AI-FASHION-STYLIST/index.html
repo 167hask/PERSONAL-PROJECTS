@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Fashion Stylist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>✨ Your AI Fashion Stylist ✨</h1>
+
+    <label for="gender">Gender</label>
+    <select id="gender">
+      <option value="female">Female</option>
+      <option value="male">Male</option>
+    </select>
+
+    <label for="bodyType">Body Type</label>
+    <select id="bodyType">
+      <option value="pear-shaped">Pear-shaped</option>
+      <option value="apple-shaped">Apple-shaped</option>
+      <option value="rectangle">Rectangle</option>
+      <option value="hourglass">Hourglass</option>
+      <option value="inverted triangle">Inverted triangle</option>
+    </select>
+
+    <label for="moodColor">Mood / Preferred Color</label>
+    <select id="moodColor">
+      <option value="pastel and soft colors">Pastel and soft</option>
+      <option value="bold and dark colors">Bold and dark</option>
+      <option value="neutrals like white, beige, grey">Neutrals</option>
+      <option value="colorful and vibrant">Colorful</option>
+    </select>
+
+    <label for="weather">Weather</label>
+    <select id="weather">
+      <option value="winter">Cold</option>
+      <option value="summer">Hot</option>
+      <option value="humid">Humid</option>
+    </select>
+
+    <label for="occasion">Occasion</label>
+    <select id="occasion">
+      <option value="casual outing">Casual</option>
+      <option value="college event">College</option>
+      <option value="party">Party</option>
+      <option value="wedding">Wedding</option>
+      <option value="date">Date</option>
+    </select>
+
+    <label for="prompt">Anything else you want to mention?</label>
+    <textarea id="prompt" placeholder="e.g. I want to look elegant but comfortable."></textarea>
+
+    <button onclick="generateOutfit()">Get Outfit Idea</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
