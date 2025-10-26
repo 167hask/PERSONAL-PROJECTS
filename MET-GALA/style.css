@@ -1,0 +1,914 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .nav-bar ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .side-bar h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+  .heading h1, .theme h1, .best-dressed h1 {
+    font-size: 1.2rem;
+  }
+  .nav-bar, .side-bar, .first, .second {
+    padding: 0.5rem;
+  }
+  .grid {
+    padding: 0.5rem;
+    }
+  .last-image img {
+    width: 100%;
+    height: auto;
+  }
+  footer {
+    font-size: 0.9rem;
+    padding: 1rem 0.5rem;
+  }
+  .lists-of-footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+.nav-bar .side-bar h1 {
+  font-size: 85px;
+  letter-spacing: -6px;
+  font-weight: 500;
+  font-family: "Bodoni Moda";
+  padding: 0;
+  margin-left: 630px;
+}
+.nav-bar .side-bar {
+  display: flex;
+  align-items: center;
+  gap: 360px;
+}
+.nav-bar .side-bar ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0px;
+}
+.nav-bar .side-bar ul li {
+  font-family: "Work Sans";
+  list-style: none;
+  letter-spacing: -0.5px;
+}
+.nav-bar .side-bar ul li a {
+  color: white;
+  text-decoration: none;
+}
+#sign {
+  color: black;
+}
+.nav-bar .side-bar ul li button {
+  background-color: black;
+  color: white;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 1px;
+}
+.nav-bar .first ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+.nav-bar .first ul li {
+  list-style: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.127811em;
+  padding: 15px 7px;
+}
+.nav-bar .first ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-bar .second ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.nav-bar .second ul li {
+  list-style: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+  padding-bottom: 180px;
+  padding-top: 10px;
+}
+.heading p,
+h1 {
+  text-align: center;
+}
+.heading h1 {
+  font-family: "Bodoni Moda";
+  font-size: 50px;
+  padding: 0px 250px;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+.heading p {
+  font-size: smaller;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main .theme .superfine {
+  font-size: 70px;
+  font-family: "Bodoni Moda";
+  font-weight: bold;
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 0;
+  margin: 0;
+}
+.theme p {
+  transform: scaleX(8.5);
+  transform: scaleY(1.5);
+  transform-origin: left;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 0;
+  margin-top: 0;
+  font-style: italic;
+  font-size: 22px;
+}
+.dresses iframe {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 100px;
+}
+main .dresses .best-dressed h1 {
+  font-size: 50px;
+  font-family: "Bodoni Moda";
+  font-weight: bold;
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 0;
+  margin: 0;
+}
+main .dresses .best-dressed p {
+  transform: scaleX(8.5);
+  transform: scaleY(1.5);
+  transform-origin: left;
+  padding-left: 320px;
+  padding-bottom: 40px;
+  padding-top: 0;
+  margin-top: 0;
+  font-style: italic;
+  font-size: 22px;
+}
+main .dresses .grid {
+  display: grid;
+  row-gap: 33px;
+  column-gap: 0px;
+  justify-content: center;
+  align-items: center;
+}
+main .dresses .grid .diljit {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+main .dresses .grid .logo {
+  width: 40px;
+  margin-left: 24px;
+}
+.diljit .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+}
+.diljit .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.diljit .description h1 .two {
+  margin-bottom: 5px;
+}
+.diljit .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .description img {
+  height: auto;
+  width: 600px;
+  margin-left: 24px;
+  margin-bottom: 20px;
+}
+main .dresses .grid .rihanna {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.rihanna .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.rihanna .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.rihanna .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Bad-Bunny {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Bad-Bunny .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.Bad-Bunny .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Bad-Bunny .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Dapper {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Dapper .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.Dapper .description p {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+main .dresses .grid .Rocky {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Rocky .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.Rocky .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Rocky .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Lewis {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Lewis .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.Lewis .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Lewis .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Colman {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Colman .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.Colman .description p {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+main .dresses .grid .Teyana {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Teyana .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.Teyana .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Teyana .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Zendaya {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Zendaya .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.Zendaya .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Zendaya .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .CardiB {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.CardiB .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+}
+.CardiB .description h1 .two {
+  margin-bottom: 5px;
+}
+.CardiB .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.CardiB .description p .two {
+  margin-bottom: 10px;
+}
+
+main .dresses .grid .Janelle {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Janelle .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Janelle .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Janelle .description p .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Brian {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Brian .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Brian .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Brian .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Magnum {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Magnum .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Magnum .description p {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+
+main .dresses .grid .Doechii {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Doechii .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Doechii .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Doechii .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Alton {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Alton .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Alton .description p {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+main .dresses .grid .Pharrell {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Pharrell .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Pharrell .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Pharrell .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Mona {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Mona .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Mona .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Mona .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Srk {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Srk .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Srk .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Srk .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Mindy {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Mindy .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Mindy .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Mindy .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Madonna {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Madonna .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Madonna .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Madonna .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Chappell {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Chappell .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Chappell .description p {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+main .dresses .grid .Justin {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Justin .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Justin .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Justin .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Monica {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Monica .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Monica .description p {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+main .dresses .grid .Jennie {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Jennie .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Jennie .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Jennie .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Laura {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Laura .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Laura .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Laura .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Miles {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Miles .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Miles .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Miles .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Demi {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Demi .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Demi .description p {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+main .dresses .grid .Regina {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Regina .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Regina .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Regina .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Damson {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Damson .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Damson .description p {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+main .dresses .grid .Versace {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Versace .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Versace .description p {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+main .dresses .grid .Joey {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Joey .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Joey .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Joey .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Scoups {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Scoups .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Scoups .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Scoups .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Jodie {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Jodie .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Jodie .description p {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+main .dresses .grid .Lupita {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Lupita .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Lupita .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Lupita .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Gigi {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Gigi .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Gigi .description p {
+  text-align: left;
+  margin-left: 24px;
+}
+.Gigi .description .two {
+  margin-bottom: 10px;
+}
+main .dresses .grid .Ugbad {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+.Ugbad .description h1 {
+  text-align: left;
+  margin-left: 24px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.Ugbad .description p {
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+.last-image img {
+  margin-left: 250px;
+  margin-top: 200px;
+  margin-bottom: 150px;
+  width: 1000px;
+  height: auto;
+}
+footer {
+  background-color: black;
+}
+footer .left-side img {
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  clear: right;
+}
+footer .left-side p {
+  color: white;
+  margin-left: 30px;
+  font-size: small;
+  clear: right;
+}
+.lists-of-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-right: 50px;
+}
+.lists-of-footer ul li {
+  color: white;
+  padding: 4px;
+  list-style: none;
+  font-family: "Work Sans";
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: x-small;
+}
+.lists-of-footer ul .eighth {
+  margin-bottom: 20px;
+}
+footer .last p {
+  color: white;
+  font-size: small;
+  margin-left: 30px;
+}
+.last .first {
+  margin-top: 30px;
+}
+.last .second {
+  padding-bottom: 20px;
+}
